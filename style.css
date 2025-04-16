@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/myfonts.woff2'),
+         url('fonts/myfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont', 'Poppins', Arial, sans-serif;
+    background-color: aliceblue;
+    font-size: 16px;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-control {
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Umum untuk semua tombol */
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Tombol Reset */
+button[type="reset"] {
+    background-color: #cc0000;
+    color: #ffffff;
+}
+
+/* Hover untuk Reset */
+button[type="reset"]:hover {
+    background-color: #990000;
+}
+
+/* Tambahan jika ada tombol submit */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
